@@ -1,9 +1,8 @@
-displayName: JWT Token
+displayName: token
 type: middleware
 import: github.com/chong19951021/token
-version: v1.0.0
 
-summary: 'Verify JWT Token in auth header and injects decoded payload in header'
+summary: 'token in auth header and injects decoded payload in header'
 
 testData:
   encodedHeader:
